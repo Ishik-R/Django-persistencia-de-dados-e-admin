@@ -161,6 +161,7 @@ table {
     text-align: center;
     top: 20px;
     width: 100px;
+    text-transform: capitalize;
 }
 
 .card__info {
