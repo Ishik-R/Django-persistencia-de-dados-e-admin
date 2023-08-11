@@ -12,7 +12,7 @@
 
 ## **Comentários sobre os commits**
 
-### Aula 03.02 - Novo caminho para as fotos (08/11/2023)
+### Aula 04.02 - Novo caminho para as fotos (08/11/2023)
 
 A partir desta aula as fotos que estavam disponíveis no site como arquivos estáticos passaram a serem tratadas como arquivos de mídia, sendo necessário, portanto, alterações importantes nos modos de referência dessas imagens. 
 
@@ -51,8 +51,14 @@ https://stackoverflow.com/questions/73611886/i-cant-show-images-in-django
 
 https://testdriven.io/blog/django-static-files/#media-files
 
+### Aula 04.4 - alterando template imagem (08/11/2023)
+
+Devida adição e reconhecimento das imagens no *imagem.html*. Adição do campo da descrição no mesmo arquivo (modificação pessoal).
+
+Pequenas correções no *README*.
+
 ## **Problemas reconhecidos**
 
-### Aula 03.02 - Novo caminho para as fotos (08/11/2023)
+### Aula 04.02 - Novo caminho para as fotos (08/11/2023)
 
 É necessário fazer o ajuste das imagens estáticas para que elas sejam exibidas quando clicarmos nelas (o que implica em uma manutenção no arquivo *imagem.html*). Este é um problema levantado pelo próprio instrutor e que será corrigido em breve.
