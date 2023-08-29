@@ -12,7 +12,15 @@
 
 ## **Comentários sobre os commits**
 
-### Aula 04.02 - Novo caminho para as fotos (08/11/2023)
+### Commits anteriores
+
+O projeto construído até aqui foi desenvolvido ao decorrer de dois cursos oferecidos pela Alura envolvendo Python web: [*Django: templates e boas práticas*](https://cursos.alura.com.br/course/django-templates-boas-praticas) e [*Django: persistência de dados e Admin*](https://cursos.alura.com.br/course/django-persistencia-dados-admin).
+
+O curso *Django: templates e boas práticas* foi concluído e aproveitado como ponto de partida para o curso *Django: persistência de dados e Admin*, que é justamente o estado em que este projeto foi retirado do repositório do instrutor. Conforme eu fui acompanhando as aulas deste curso eu fui realizando os devidos ajustes, até que resolvi começar a documentar devidamente meus commits.
+
+Para fins de esclarecimento: **as aulas descritas pelos próximos commits são referentes ao curso Django: persistência de dados e Admin.**. As aulas nos commits são lidas como **Número da Aula . Tópico da Aula - Título da Aula**. Não serão feitos necessariamente commits para todos os tópicos de todas as aulas, somente quando houverem mudanças consideráveis ao projeto.
+
+### Aula 04.2 - Novo caminho para as fotos (11/08/2023)
 
 A partir desta aula as fotos que estavam disponíveis no site como arquivos estáticos passaram a serem tratadas como arquivos de mídia, sendo necessário, portanto, alterações importantes nos modos de referência dessas imagens. 
 
@@ -51,7 +59,7 @@ https://stackoverflow.com/questions/73611886/i-cant-show-images-in-django
 
 https://testdriven.io/blog/django-static-files/#media-files
 
-### Aula 04.4 - alterando template imagem (08/11/2023)
+### Aula 04.4 - alterando template imagem (11/08/2023)
 
 Devida adição e reconhecimento das imagens no *imagem.html*. Adição do campo da descrição no mesmo arquivo (modificação pessoal).
 
@@ -59,6 +67,6 @@ Pequenas correções no *README*.
 
 ## **Problemas reconhecidos**
 
-### Aula 04.02 - Novo caminho para as fotos (08/11/2023)
+### Aula 04.2 - Novo caminho para as fotos (11/08/2023)
 
 É necessário fazer o ajuste das imagens estáticas para que elas sejam exibidas quando clicarmos nelas (o que implica em uma manutenção no arquivo *imagem.html*). Este é um problema levantado pelo próprio instrutor e que será corrigido em breve.
