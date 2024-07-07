@@ -1,14 +1,8 @@
-# **Alura Space - um projeto Django oferecido pela Alura**
-
-🔨*EM CONSTRUÇÃO*
+# **Alura Space - um projeto Django**
 
 ## **O que é este projeto?**
 
-🔨*EM CONSTRUÇÃO*
-
-## **Comentários gerais**
-
-🔨*EM CONSTRUÇÃO*
+Este projeto é parte do antigo curso introdutório ao Django oferecida pela plataforma da Alura. O projeto original é de criação da Alura, bem como a organização e apresentação de seus elementos.
 
 ## **Comentários sobre os commits**
 
@@ -16,9 +10,27 @@
 
 O projeto construído até aqui foi desenvolvido ao decorrer de dois cursos oferecidos pela Alura envolvendo Python web: [*Django: templates e boas práticas*](https://cursos.alura.com.br/course/django-templates-boas-praticas) e [*Django: persistência de dados e Admin*](https://cursos.alura.com.br/course/django-persistencia-dados-admin).
 
-O curso *Django: templates e boas práticas* foi concluído e aproveitado como ponto de partida para o curso *Django: persistência de dados e Admin*, que é justamente o estado em que este projeto foi retirado do repositório do instrutor. Conforme eu fui acompanhando as aulas deste curso eu fui realizando os devidos ajustes, até que resolvi começar a documentar devidamente meus commits.
+O curso *Django: templates e boas práticas* foi concluído e aproveitado como ponto de partida para o curso *Django: persistência de dados e Admin*, que é justamente o estado em que este projeto foi retirado do repositório do instrutor. Conforme eu fui acompanhando as aulas deste curso eu fui realizando os devidos ajustes, até que resolvi começar a documentar devidamente meus commits (no caso, especificamente a partir da Aula 04.2).
 
 Para fins de esclarecimento: **as aulas descritas pelos próximos commits são referentes ao curso Django: persistência de dados e Admin.**. As aulas nos commits são lidas como **Número da Aula . Tópico da Aula - Título da Aula**. Não serão feitos necessariamente commits para todos os tópicos de todas as aulas, somente quando houverem mudanças consideráveis ao projeto.
+
+### Configuração do ambiente
+
+Lembrando que é necessário configurar devidamente o ambiente com as versões do Python, Django e virtualenv e eventuais bibliotecas e pacotes utilizados no decorrer do projeto apresentado. Para maiores detalhes consultar *requirements.txt*.
+
+### Aula 01 - Lidando com dados (05/07/2024 - RESUMO)
+
+A aula envolve, em um primeiro momento, a configuração do ambiente. 
+
+Uma vez organziado o ambiente, somos introduzidos ao pathing para os dados das imagens, para que cada imagem mostre de maneira dinâmica os dados a ela atribuídos por meio do SQL. E, para evitar a necessidade de se manipular o banco de dados sem o SQL, somos introduzidos ao Banco de Dados (Django ORM).
+
+### Aula 02 - Admin (05/07/2024 - RESUMO)
+
+Apresentação da interface de um usuário administrador / superusuário na página de admin do Django, com a possibilidade de adicionar, editar e deletar novos itens do banco de dados através de um CRUD oferecido pelo próprio Django admin. 
+
+### Aula 03 - Avançando no admin (05/07/2024 - RESUMO)
+
+Adição de um campo booleano (permitir ou não permitir a publicação de uma foto) e um campo de data para a Fotografia.
 
 ### Aula 04.2 - Novo caminho para as fotos (11/08/2023)
 
@@ -64,6 +76,14 @@ https://testdriven.io/blog/django-static-files/#media-files
 Devida adição e reconhecimento das imagens no *imagem.html*. Adição do campo da descrição no mesmo arquivo (modificação pessoal).
 
 Pequenas correções no *README*.
+
+### Aula 05.3 - view de buscar (29/08/2023)
+
+Criação do *buscar.html*, bem como a implementação da funcionalidade da barra de busca.
+
+### Aula 05.4 -  autenticação e autorização (05/07/2023)
+
+Exploração dos elementos do Django admin: criação de usuário, permissões (ativo / membro de administração / superusuário) e organização das permissões dos usuários pela criação de grupos.
 
 ## **Problemas reconhecidos**
 
